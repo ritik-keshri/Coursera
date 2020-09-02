@@ -1,0 +1,124 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	display: inline-block;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	background-image: url("example.jpg");
+}
+
+h1{
+	text-align: center;
+	color: white;
+	font-size: 175%;
+}
+
+/*Laptop*/
+@media (min-width: 992px){
+	.col-lg-1, .col-lg-2, .col-lg-3{
+		font-size: 1.3em;
+		border: 1px solid black;
+	}
+
+	.sec{
+		padding: 20px;
+		width: 33.33%;
+		float: left;
+		position: relative;
+	}	
+		.col-lg-1{
+		background-color: #2f4f4f;
+	}
+
+	.col-lg-2{
+		background-color: gray;
+	}
+
+	.col-lg-3{
+		background-color: #696969;
+	}
+}
+/*Tablet*/
+@media (min-width:768px) and (max-width: 991px){
+	.col-md-1, .col-md-2, .col-md-3{
+		border: 1px solid black;
+	}		
+
+	.sec{
+		padding: 20px;
+		width: 50%;
+		float: left;
+		position: relative;
+	}
+
+	.sec:nth-child(3){
+		padding: 20px;
+		width: 100%;
+		float: left;
+	}
+
+	.col-md-1{
+		background-color: #2f4f4f;
+	}
+
+	.col-md-2{
+		background-color: gray;
+	}
+
+	.col-md-3{
+		background-color: #696969;
+	}
+}
+/*Mobile*/
+@media (max-width: 767px){
+	.col-sm-1, .col-sm-2, .col-sm-3{
+		font-size: 20px;
+		border: 1px solid black;
+	}	
+	.sec{
+		padding: 20px;
+		width: 100%;
+		float: left;
+		position: relative;
+	}
+	.col-sm-1{
+		background-color: #2f4f4f;
+	}
+	.col-sm-2{
+		background-color: gray;
+	}
+	.col-sm-3{
+		background-color: #696969;
+	}
+}
+
+p{
+	clear: both;
+	padding: 15px;
+}
+
+/*Section heading*/
+@media{
+	#hi, #h2, #h3{
+		border: 1px solid black;
+		float: right;
+		font-size: 25px;
+	}
+	#hi{
+		background-color: blue;
+		color: white;
+	}
+
+	#h2{
+		background-color: powderblue;
+	}
+
+	#h3{
+		background-color: maroon;
+		color: yellow;
+	}
+}
