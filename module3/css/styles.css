@@ -1,0 +1,58 @@
+*{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}	
+
+body{
+	display: inline-block;
+}
+
+h1{
+	font-size: 28px;
+	color: white;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0px;
+	background: pink;
+}
+
+a:hover{
+	background: blue;
+	color: white;
+}
+
+h2{
+	display: inline-block;
+	margin: 20px 0px;
+	font-size: 2.4em;	
+	background: red;
+}
+
+h3{
+	margin: 10px 0px;
+	font-size: 2em;
+	background: yellow;
+	display: inline-block;
+}
+
+p{
+	padding: 10px;
+	font-size: 20px;
+	margin: 0px;
+}
+
+#chicken,#beef,#sushi{
+	padding: 10px;
+	display: inline-block;
+}
+
+section > div{
+	border: 1px solid black; 
+	background: gray;
+	margin: 20px;
+}
+
+section > section{
+	padding: 10px;
+}
